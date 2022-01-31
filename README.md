@@ -38,7 +38,7 @@ Head over to the Hasura Console, go to the "Remote Schemas" page and click on th
 2. Add the GraphQL endpoint
 3. Click on "Add Remote Schema"
 
-![Sanity Project Dashboard](https://raw.githubusercontent.com/catalinpit/sanity-remote-schema/main/images/hasura-add-remote-schema.png)
+![Hasura Add Remote Schema Without Authorization](https://raw.githubusercontent.com/catalinpit/sanity-remote-schema/main/images/hasura-add-remote-schema.png)
 
 You are done! You can use the GraphQL API in Hasura.
 
@@ -54,13 +54,13 @@ After that, click on the `Datasets` option. Once you are on the `Datasets` page,
 
 Click on the `Edit dataset` button and a new pop-up will appear. Change the `Visibility` to **Private** and save it.
 
-![Sanity Project Dashboard](https://raw.githubusercontent.com/catalinpit/sanity-remote-schema/main/images/sanity-dataset-settings.png)
+![Sanity Dataset Settings](https://raw.githubusercontent.com/catalinpit/sanity-remote-schema/main/images/sanity-dataset-settings.png)
 
 Now that your API is protected, you need to define a token. Go to the `API` page, scroll down and click on the **Add API token**.
 
 Enter the token name and choose the appropriate permissions. In this case, the token is read-only.
 
-![Sanity Project Dashboard](https://raw.githubusercontent.com/catalinpit/sanity-remote-schema/main/images/sanity-api-token.png)
+![Sanity API Token](https://raw.githubusercontent.com/catalinpit/sanity-remote-schema/main/images/sanity-api-token.png)
 
 Save it and copy the token.
 
@@ -68,6 +68,8 @@ Now go to the "Remote Schemas" in Hasura and click on the "Add" button. After th
 * Remote Schema name
 * GraphQL endpoint URL
 * Authorization header under the "Additional headers" section
+
+![Hasura Add Remote Schema With Authorization](https://raw.githubusercontent.com/catalinpit/sanity-remote-schema/main/images/hasura-add-remote-schema-token.png)
 
 See the image above for reference.
 
