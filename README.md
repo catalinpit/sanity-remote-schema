@@ -2,7 +2,7 @@
 
 Sanity is the platform for structured content that allows you to manage your text, images and other media with APIs.
 
-## Enable the Graphql API for your Sanity Project
+## Enable the GraphQL API for your Sanity Project
 
 Sanity projects do not come with a GraphQL API by default. After creating the Sanity project you need to deploy the GraphQL API manually. 
 
